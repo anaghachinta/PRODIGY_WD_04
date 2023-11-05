@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,400&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(169, 221, 241);
+        color: black;
+		font-family: 'poppins',sans-serif;
+      }
+	  .left{
+		font-size: 1.5rem;
+	  }
+	  nav{
+		display:flex;
+		justify-content: space-around;
+		align-items: center;
+		height: 70px;
+		background-color: rgb(238, 133, 200);
+	  }
+	  nav ul{
+		display:flex;
+		justify-content: center;
+	  }
+	  nav ul li{
+		list-style: none;
+		margin: 0 25px;
+	  }
+	  nav ul li a{
+		text-decoration: none;
+		color:white;
+	  }
+	  nav ul li a:hover{
+		text-decoration: none;
+		color:rgb(230, 230, 190);
+	  }
+	  .firstSection{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin: 60px 0;
+	  }
+	  .firstSection > div{
+		width:30%;
+		
+	  }
+	  .leftSec{
+		font-size: 2.5rem;
+	  }
+	  .rightSec img{
+		width: 80%;
+        border-style: dashed;
+        border-color:black ;
+	  }
+	  .grey{
+		color: bisque;
+		font-size: 3rem;
+	  }
+      .cyan{
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Anagha's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+           	<li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+	<main>
+		<section class="firstSection">
+			<div class="leftSec">
+				Hello there, My name is Anagha! 
+				<span class="cyan"><br>A passionate and enthusiastic college student
+					pursuing a third-year B. Tech in information
+					technology. Seeking to use my strong analytical
+					thinking, attention to detail and research skills to
+					effectively serve any company in an internship
+					position. Dedicated, hardworking, and
+					committed to becoming a dependable and
+					valuable team member</span>
+			</div>
+			<div class="rightSec">
+				<img src="Anagha.jpeg" alt="profile"/>
+			</div>
+		</section>
+	</main>
+  </body>
+</html>

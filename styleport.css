@@ -1,0 +1,37 @@
+body, p, ul {
+    background-color:beige;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #5598c6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.about {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.description {
+    padding: 20px;
+}
+.skills {
+    padding: 20px;
+}
+.skills ul {
+    list-style-type: none;
+}
+.contact {
+    padding: 20px;
+}
+.contact a {
+    color: #3498db;
+    text-decoration: none;
+}
